@@ -9,7 +9,7 @@ const page = () => {
     <>
       <Head/>
       <section className="lg:px-[38px] px-0">
-        <div className="bg-[url('/image/section-bg.png')] lg:min-h-[717px] h-[100%]  bg-no-repeat bg-cover mt-[16px] relative rounded-[30px] ">
+        <div className="bg-[url('/register/landing/image/section-bg.png')] lg:min-h-[717px] h-[100%]  bg-no-repeat bg-cover mt-[16px] relative rounded-[30px] ">
           <div className="md:pt-[81px] md:pb-[29px] md:pr-[51px] md:pl-[66px] px-5 pb-4 h-[100%] flex flex-col max-w-[1500px] mx-auto">
             <div className="flex xl:gap-[158px] md:gap-[60px] gap-8 justify-between lg:flex-row flex-col">
               <div className="max-w-[609px] w-[100%] border-1-[red] mt-[40px]">
@@ -101,7 +101,7 @@ const page = () => {
                   className="min-h-[182px] h-[100%] rounded-[8px]  w-[100%]"
                 >
                   <div className="w-[100%]">
-                    <div className="bg-[url('/image/card-bg.png')] h-[182px] bg-no-repeat bg-cover w-[100%] bg rounded-[8px] ">
+                    <div className="bg-[url('/register/landing/image/card-bg.png')] h-[182px] bg-no-repeat bg-cover w-[100%] bg rounded-[8px] ">
                       <div className="w-[100%] flex justify-between md:px-[32px] px-4">
                         <Image
                           src={"image/phone.svg"}
@@ -131,7 +131,7 @@ const page = () => {
                   className="min-h-[182px] h-[100%] rounded-[8px]  w-[100%]"
                 >
                   <div className="w-[100%]">
-                    <div className="bg-[url('/image/card-bg.png')] h-[182px] bg-no-repeat bg-cover w-[100%] bg rounded-[8px] ">
+                    <div className="bg-[url('/register/landing/image/card-bg.png')] h-[182px] bg-no-repeat bg-cover w-[100%] bg rounded-[8px] ">
                       <div className="w-[100%] flex justify-between md:px-[32px] px-4">
                         <Image
                           src={"image/text.svg"}
