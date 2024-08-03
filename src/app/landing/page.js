@@ -9,7 +9,7 @@ const page = () => {
     <>
       <Head/>
       <section className="lg:px-[38px] px-0">
-        <div className="bg-[url('image/section-bg.png')] lg:min-h-[717px] h-[100%]  bg-no-repeat bg-cover mt-[16px] relative rounded-[30px] ">
+        <div className="bg-[url('/image/section-bg.png')] lg:min-h-[717px] h-[100%]  bg-no-repeat bg-cover mt-[16px] relative rounded-[30px] ">
           <div className="md:pt-[81px] md:pb-[29px] md:pr-[51px] md:pl-[66px] px-5 pb-4 h-[100%] flex flex-col max-w-[1500px] mx-auto">
             <div className="flex xl:gap-[158px] md:gap-[60px] gap-8 justify-between lg:flex-row flex-col">
               <div className="max-w-[609px] w-[100%] border-1-[red] mt-[40px]">
@@ -41,7 +41,7 @@ const page = () => {
             <div className="lg:mt-[14px] mt-6   gap-4 md:gap-[30px] mb-[20px] flex md:flex-row flex-col ">
               <div className="flex items-center gap-[16px]">
                 <Image
-                  src={"image/green-ticks.svg"}
+                  src={"/image/green-ticks.svg"}
                   alt="green-tick"
                   width={38}
                   height={38}
@@ -53,7 +53,7 @@ const page = () => {
               </div>
               <div className="flex items-center gap-[16px]">
                 <Image
-                  src={"image/green-ticks.svg"}
+                  src={"/image/green-ticks.svg"}
                   alt="green-tick"
                   width={38}
                   height={38}
@@ -65,7 +65,7 @@ const page = () => {
               </div>
               <div className="flex items-center gap-[16px]">
                 <Image
-                  src={"image/green-ticks.svg"}
+                  src={"/image/green-ticks.svg"}
                   alt="green-tick"
                   width={38}
                   height={38}
@@ -101,10 +101,10 @@ const page = () => {
                   className="min-h-[182px] h-[100%] rounded-[8px]  w-[100%]"
                 >
                   <div className="w-[100%]">
-                    <div className="bg-[url('image/card-bg.png')] h-[182px] bg-no-repeat bg-cover w-[100%] bg rounded-[8px] ">
+                    <div className="bg-[url('/image/card-bg.png')] h-[182px] bg-no-repeat bg-cover w-[100%] bg rounded-[8px] ">
                       <div className="w-[100%] flex justify-between md:px-[32px] px-4">
                         <Image
-                          src={"image/phone.svg"}
+                          src={"/image/phone.svg"}
                           alt="phone"
                           width={43}
                           height={43}
@@ -131,10 +131,10 @@ const page = () => {
                   className="min-h-[182px] h-[100%] rounded-[8px]  w-[100%]"
                 >
                   <div className="w-[100%]">
-                    <div className="bg-[url('image/card-bg.png')] h-[182px] bg-no-repeat bg-cover w-[100%] bg rounded-[8px] ">
+                    <div className="bg-[url('/image/card-bg.png')] h-[182px] bg-no-repeat bg-cover w-[100%] bg rounded-[8px] ">
                       <div className="w-[100%] flex justify-between md:px-[32px] px-4">
                         <Image
-                          src={"image/text.svg"}
+                          src={"/image/text.svg"}
                           alt="text"
                           width={43}
                           height={43}
@@ -163,7 +163,7 @@ const page = () => {
                     <div className="bg-[#3424C2] rounded-[8px] h-[182px] ">
                       <div className="w-[100%] flex justify-between md:px-[32px] px-4">
                         <Image
-                          src={"image/building.svg"}
+                          src={"/image/building.svg"}
                           alt="building"
                           width={43}
                           height={43}
@@ -205,7 +205,7 @@ const page = () => {
                 <div className="flex  gap-8 md:gap-[50px] md:flex-row flex-col">
                   <div className="md:max-w-[282px] w-[100%]">
                     <Image
-                      src={"image/office-building.svg"}
+                      src={"/image/office-building.svg"}
                       alt="office"
                       width={50}
                       height={50}
@@ -222,7 +222,7 @@ const page = () => {
                   </div>
                   <div className="md:max-w-[282px] w-[100%]">
                     <Image
-                      src={"image/bussiness.svg"}
+                      src={"/image/bussiness.svg"}
                       alt="office"
                       width={50}
                       height={50}
@@ -241,7 +241,7 @@ const page = () => {
                 <div className="flex  gap-8 md:gap-[50px] md:flex-row flex-col md:mt-[40px] mt-8">
                   <div className="md:max-w-[282px] w-[100%]">
                     <Image
-                      src={"image/scale.svg"}
+                      src={"/image/scale.svg"}
                       alt="office"
                       width={50}
                       height={50}
@@ -258,7 +258,7 @@ const page = () => {
                   </div>
                   <div className="md:max-w-[282px] w-[100%]">
                     <Image
-                      src={"image/homework.svg"}
+                      src={"/image/homework.svg"}
                       alt="office"
                       width={50}
                       height={50}
@@ -275,7 +275,7 @@ const page = () => {
                 </div>
               </div>
               <Image
-                src={"image/handshake.png"}
+                src={"/image/handshake.png"}
                 alt="My Image"
                 width={447}
                 height={450}
@@ -292,64 +292,64 @@ const page = () => {
           </h2>
           <div className="flex md:gap-[54px] gap-8 items-center flex-wrap">
             <Image
-              src={"image/microsoft.svg"}
+              src={"/image/microsoft.svg"}
               alt="microsoft"
               width={100}
               height={21}
             />
             <Image
-              src={"image/paypal.svg"}
+              src={"/image/paypal.svg"}
               alt="paypal"
               width={100}
               height={21}
             />
             <Image
-              src={"image/disney.svg"}
+              src={"/image/disney.svg"}
               alt="disney"
               width={100}
               height={21}
             />
             <Image
-              src={"image/samsung.svg"}
+              src={"/image/samsung.svg"}
               alt="samsung"
               width={100}
               height={21}
             />
             <Image
-              src={"image/spotify.svg"}
+              src={"/image/spotify.svg"}
               alt="spotify"
               width={100}
               height={21}
             />
             <Image
-              src={"image/mcafe.svg"}
+              src={"/image/mcafe.svg"}
               alt="hsbc"
               width={100}
               height={21}
             />
 
             <Image
-              src={"image/nttgroups.svg"}
+              src={"/image/nttgroups.svg"}
               alt="ntt"
               width={100}
               height={21}
             />
             <Image
-              src={"image/blackrock.svg"}
+              src={"/image/blackrock.svg"}
               alt="blackrock"
               width={100}
               height={21}
             />
-            <Image src={"image/hsbc.svg"} alt="hsbc" width={100} height={21} />
+            <Image src={"/image/hsbc.svg"} alt="hsbc" width={100} height={21} />
             <Image
-              src={"image/accenture.svg"}
+              src={"/image/accenture.svg"}
               alt="accenture"
               width={100}
               height={21}
             />
-            <Image src={"image/uber.svg"} alt="uber" width={100} height={21} />
+            <Image src={"/image/uber.svg"} alt="uber" width={100} height={21} />
             <Image
-              src={"image/slack.svg"}
+              src={"/image/slack.svg"}
               alt="slack"
               width={100}
               height={21}
