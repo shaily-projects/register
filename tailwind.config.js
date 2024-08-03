@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('assets/banner.png')",
+        "hero-pattern": "url('https://shaily-projects.github.io/register/assets/banner.png')",
       },
       colors: {
         black: "#393939",
