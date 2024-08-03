@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+body {
+  font-family: "Assistant", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #393939;
+  background-color: #fff;
+}
+.container {
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+.cards h4 {
+  min-height: 80px;
+}
+.cards p {
+  min-height: 40px;
+}
+.tab .active {
+  color: #fff;
+  background: #4caf50;
+}
+.mobile-menu {
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  top: 120px;
+  z-index: 999;
+}
+.mobile-menu li,
+.menu-mobile li {
+  margin-bottom: 10px;
+  padding: 0 30px 10px;
+  border-bottom: 1px solid #dcdcdc;
+}
+.mobile-menu li:first-child,
+.menu-mobile li:first-child {
+  border-top: 1px solid #dcdcdc;
+  padding-top: 10px;
+}
+body.menu-open {
+  overflow: hidden;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.landing-head-container {
+  max-width: 1123px;
+  width: 100%;
+  margin: auto;
+}
+.bg {
+  background-position-y: bottom;
+}
+.menu-mobile {
+  position: fixed;
+  width: 80%;
+  height: 100%;
+  background-color: #fff;
+  left: 0;
+  top: 120px;
+  z-index: 999;
+}
+.menu-mobile button {
+  margin: 10px 30px 10px;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .cards h4 {
+    min-height: inherit;
+    padding-bottom: 30px;
+  }
+  .cards p {
+    min-height: inherit;
+    margin-bottom: 20px;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
